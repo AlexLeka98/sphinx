@@ -41,6 +41,7 @@ __released__ = '4.4.0'  # used when Sphinx builds its own docs
 version_info = (4, 4, 0, 'beta', 0)
 
 package_dir = path.abspath(path.dirname(__file__))
+print(package_dir)
 
 __display_version__ = __version__  # used for command line version
 if __version__.endswith('+'):
