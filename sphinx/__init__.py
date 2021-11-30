@@ -41,7 +41,8 @@ __released__ = '4.4.0'  # used when Sphinx builds its own docs
 version_info = (4, 4, 0, 'beta', 0)
 
 package_dir = path.abspath(path.dirname(__file__))
-print('---------------------------------------------------------------------------------------------------')
+print('-----------------------------------------------------------------------------------------------------------------------------------------------------')
+print('__file__ : ',__file__)
 print('Absolute path : ',package_dir)
 print('Relative path : ',path.dirname(__file__))
 print('helloooooooooooooooooooooooooooooooooooooooooooooooooooo')
